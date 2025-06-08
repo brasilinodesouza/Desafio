@@ -1,4 +1,4 @@
-Teste BuscaCEP utilizando a api do ViaCEP [https://viacep.com.br/]
+Teste BuscaCEP utilizando a api do ViaCEP https://viacep.com.br/
 
 - Clonar código.
 - Abrir pasta backend com o Visal Studio.

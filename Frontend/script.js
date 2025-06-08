@@ -17,14 +17,12 @@ function limpar() {
   }
 }
 
-// Exibe uma mensagem de erro para o usuário
 function Error(message) {
-  limpar(); // Limpa resultado antes de exibir um erro
+  limpar(); 
   if (mensagemErroDiv) {
     mensagemErroDiv.innerText = message;
-    mensagemErroDiv.style.display = "block"; // Mostra a div de erro
+    mensagemErroDiv.style.display = "block"; 
   } else {
-    // Fallback caso a div de erro não exista (mas é bom tê-la!)
     resultadoDiv.innerHTML = `<p style="color: red;">${message}</p>`;
   }
 }
@@ -79,13 +77,13 @@ function pesquisaPorEndereco(addresses) {
 
 // Busca por CEP
 cepForm.addEventListener("submit", async (e) => {
-  e.preventDefault(); // Impede o comportamento padrão de recarregar a página
+  e.preventDefault(); 
   limpar(); 
 
   // Limpa o CEP, removendo caracteres não numéricos como '-'
   const cep = cepInput.value.replace(/\D/g, "");
 
-  // Validação frontend simples: verifica se o CEP tem 8 dígitos
+  // verifica se o CEP tem 8 dígitos
   if (cep.length !== 8) {
     Error("Por favor, digite um CEP válido com 8 dígitos.");
     return; 
@@ -94,7 +92,6 @@ cepForm.addEventListener("submit", async (e) => {
   try {
     // Faz a requisição HTTP para o backend
     const response = await fetch(`${BASE_API_URL}/api/BuscaCep/${cep}`);
-    // Verifica se a resposta HTTP foi bem-sucedida (status 2xx)
     if (!response.ok) {
       const errorData = await response
         .json()
@@ -147,7 +144,6 @@ estadoCidadeForm.addEventListener("submit", async (e) => {
       `${BASE_API_URL}/api/BuscaEndereco?uf=${uf}&municipio=${encodedCidade}&logradouro=${encodedLogradouro}`
     );
 
-    // Verifica se a resposta HTTP foi bem-sucedida
     if (!response.ok) {
       const errorData = await response
         .json()

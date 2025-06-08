@@ -7,11 +7,13 @@ Tecnologia Utilizada:
 - Extensão Live Server para o frontend
 
 Objetivo do Desafio:
+
 -Busca por CEP: 
 ○ Usuário insere um CEP no formulário e clica no botão de busca. 
 ○ JavaScript valida o CEP e faz uma requisição à API backend. 
 ○ A API backend consulta a API externa e retorna os dados do endereço. 
 ○ JavaScript processa a resposta e exibe os dados do endereço na página. 
+
 -Busca por Estado/Cidade: 
 ○ Usuário seleciona um estado e insere uma cidade no formulário e clica no 
 botão de busca. 

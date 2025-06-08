@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "BuscaCep.Controllers.BuscaCepController",
+    "Method": "BuscarCEP",
+    "RelativePath": "api/BuscaCep/{cep}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cep",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BuscaCep.Controllers.BuscaEnderecoController",
+    "Method": "BuscarEnderecoCompleto",
+    "RelativePath": "api/BuscaEndereco",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "municipio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "logradouro",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

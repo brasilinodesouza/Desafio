@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desafio\\Backend\\BuscaCep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|d:\\desafio\\backend\\buscacep\\buscacep\\controllers\\buscacepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|solutionrelative:buscacep\\controllers\\buscacepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|d:\\desafio\\backend\\buscacep\\buscacep\\models\\viacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|solutionrelative:buscacep\\models\\viacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|d:\\desafio\\backend\\buscacep\\buscacep\\controllers\\buscaenderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|solutionrelative:buscacep\\controllers\\buscaenderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|d:\\desafio\\backend\\buscacep\\buscacep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B5AEC8-DF52-44C1-9F63-AAD26F8332B5}|BuscaCep\\BuscaCep.csproj|solutionrelative:buscacep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Program.cs",
+              "RelativeDocumentMoniker": "BuscaCep\\Program.cs",
+              "ToolTip": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Program.cs",
+              "RelativeToolTip": "BuscaCep\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T02:17:43.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuscaEnderecoController.cs",
+              "DocumentMoniker": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Controllers\\BuscaEnderecoController.cs",
+              "RelativeDocumentMoniker": "BuscaCep\\Controllers\\BuscaEnderecoController.cs",
+              "ToolTip": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Controllers\\BuscaEnderecoController.cs",
+              "RelativeToolTip": "BuscaCep\\Controllers\\BuscaEnderecoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:36:38.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuscaCepController.cs",
+              "DocumentMoniker": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Controllers\\BuscaCepController.cs",
+              "RelativeDocumentMoniker": "BuscaCep\\Controllers\\BuscaCepController.cs",
+              "ToolTip": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Controllers\\BuscaCepController.cs",
+              "RelativeToolTip": "BuscaCep\\Controllers\\BuscaCepController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:12:33.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViaCep.cs",
+              "DocumentMoniker": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Models\\ViaCep.cs",
+              "RelativeDocumentMoniker": "BuscaCep\\Models\\ViaCep.cs",
+              "ToolTip": "D:\\Desafio\\Backend\\BuscaCep\\BuscaCep\\Models\\ViaCep.cs",
+              "RelativeToolTip": "BuscaCep\\Models\\ViaCep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:11:39.385Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

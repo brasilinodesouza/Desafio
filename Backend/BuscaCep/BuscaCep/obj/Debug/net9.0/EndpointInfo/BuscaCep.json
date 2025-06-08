@@ -1,0 +1,77 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Minha API",
+    "description": "Uma API Web de exemplo para buscar CEP",
+    "termsOfService": "https://example.com/terms",
+    "contact": {
+      "name": "Seu Nome",
+      "email": "seu.email@example.com"
+    },
+    "license": {
+      "name": "Licença de Exemplo",
+      "url": "https://example.com/license"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/BuscaCep/{cep}": {
+      "get": {
+        "tags": [
+          "BuscaCep"
+        ],
+        "parameters": [
+          {
+            "name": "cep",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BuscaEndereco": {
+      "get": {
+        "tags": [
+          "BuscaEndereco"
+        ],
+        "parameters": [
+          {
+            "name": "uf",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "municipio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "logradouro",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

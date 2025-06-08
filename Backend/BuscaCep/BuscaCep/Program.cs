@@ -20,15 +20,13 @@ builder.Services.AddSwaggerGen(options =>
         },
         License = new OpenApiLicense
         {
-            Name = "Licença de Exemplo",
+            Name = "LicenÃ§a de Exemplo",
             Url = new Uri("https://example.com/license")
         }
     });
 });
 
-// ---------------------------------------------------
 builder.Services.AddControllers();
-// ---------------------------------------------------
 
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
@@ -63,6 +61,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers(); // Agora deve funcionar porque AddControllers() foi chamado
+app.MapControllers(); 
 
 app.Run();
